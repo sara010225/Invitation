@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mark & Carla's Wedding Invitation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fdf6f0;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        img {
+            width: 100%;
+            max-width: 700px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #8b5e3c;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>You're Invited!</h1>
+        <img src="data:e-invites/jpeg;base64,{encoded_images['2.jpg']}" alt="Main Invitation">
+        <img src="data:e-invites/jpeg/jpeg;base64,{encoded_images['1.jpg']}" alt="The Entourage">
+        <img src="data:e-invites/jpeg/jpeg;base64,{encoded_images['3.jpg']}" alt="Secondary Sponsors">
+        <img src="data:e-invites/jpeg/jpeg;base64,{encoded_images['4.jpg']}" alt="Finer Details">
+        <p style="color: #555;">We can't wait to celebrate with you! 💍</p>
+    </div>
+</body>
+</html>
